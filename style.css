@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  cursor: default;
+}
+
+/* header styles */
+header {
+  background-image: url(./Assets/Hero-bg.png);
+  height: 1000px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px 158px 150px;
+  padding: 50px 0;
+}
+
+.logo-website-name h3 {
+  color: #4e47ff;
+  font-size: 34px;
+}
+
+/* btn-styling */
+.btn-style {
+  color: #ffffff;
+  background-color: #4e47ff;
+  width: 132px;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-style:hover {
+  background-color: rgb(125, 1, 207);
+  cursor: pointer;
+}
+
+/* banner styling */
+.banner-title {
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 25px;
+}
+
+.banner {
+  width: 905px;
+  height: 152px;
+  margin: auto;
+}
+
+/* action section styles */
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin: 116px 160px 116px 140px;
+}
+
+.left-side-action {
+  margin: 62px 0;
+  padding-right: 120px;
+}
+
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.action-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 23px 0;
+}
+
+.action-btn {
+  width: 230px;
+  height: 50px;
+}
+
+.right-side-action img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+
+/* productive-users-section */
+.productive-users-section {
+  background-color: rgba(229, 231, 255, 100);
+  height: 306px;
+  text-align: center;
+  margin: 0 141px;
+  border-radius: 24px;
+}
+
+.productive-users-section-title {
+  font-size: 38px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.productive-users-section-count {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.user-count {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+
+.users-count-subtitle {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 50);
+}
+
+/* user-reviews section */
+.user-reviews {
+  height: 342px;
+  margin: 137px 150px;
+  text-align: center;
+}
+
+.user-reviews-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 50px;
+}
+
+.reviews-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review {
+  width: 420px;
+  height: 243px;
+  background-color: rgb(255, 249, 238);
+  border-radius: 14px;
+  text-align: left;
+  padding: 24px;
+}
+
+.review-star {
+  background-image: url(./Assets/icon-star.png);
+  background-repeat: repeat-x;
+  width: 90px;
+  margin: 30px 0;
+}
+
+.review-message {
+  margin: 30px 0;
+  font-size: 14px;
+}
+.reviewer-details {
+  display: flex;
+}
+
+.reviewer-img {
+  border-radius: 9999px;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+/* get-started-banner-section */
+.get-started-banner {
+  background-color: rgb(255, 249, 238);
+  text-align: center;
+  margin: 40px 150px 70px 150px;
+  border-radius: 14px;
+}
+
+.get-started-banner-title {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 70px;
+}
+
+.get-started-banner-subtitle {
+  padding: 20px 0;
+  color: rgba(0, 0, 0, 50);
+}
+
+.get-started-banner img {
+  border-radius: 48px;
+  margin: 20px 0 71px 0;
+  width: 840px;
+  height: 365px;
+}
+
+/* get-in-touch-section */
+.get-in-touch {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 150px;
+  height: 632px;
+}
+
+.get-in-touch-leftside {
+  margin: 200px 100px 200px 0;
+}
+
+.get-in-touch-title {
+  font-size: 97px;
+  font-weight: bold;
+}
+
+.get-in-touch-rightside input {
+  width: 497px;
+  height: 50px;
+  margin: 20px 0;
+  padding: 20px 271px 20px 32px;
+  font-size: 20px;
+}
+
+#message {
+  width: 497px;
+  height: 100px;
+  margin: 20px 0;
+  padding: 20px 271px 20px 32px;
+  font-size: 20px;
+}
+
+form label {
+  font-size: 18px;
+}
+
+.get-in-touch-btn {
+  width: 100%;
+  height: 88px;
+}
+
+/* footer styles */
+footer {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.footer-logo-website-name {
+  font-size: 100px;
+  font-weight: 700px;
+  color: #4e47ff;
+  padding: 105px 0 8px 0;
+}
+.footer-description {
+  color: #8987a1;
+  padding: 0 680px 20px 680px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #8987a1;
+  padding: 0 20px;
+}

@@ -195,6 +195,11 @@ header {
   height: 365px;
 }
 
+.get-started-btn {
+  width: 200px;
+  height: 48px;
+}
+
 /* get-in-touch-section */
 .get-in-touch {
   display: flex;
@@ -218,6 +223,8 @@ header {
   margin: 20px 0;
   padding: 20px 271px 20px 32px;
   font-size: 20px;
+  background-color: rgb(255, 249, 238);
+  border: none;
 }
 
 #message {
@@ -226,6 +233,8 @@ header {
   margin: 20px 0;
   padding: 20px 271px 20px 32px;
   font-size: 20px;
+  background-color: rgb(255, 249, 238);
+  border: none;
 }
 
 form label {
@@ -239,8 +248,10 @@ form label {
 
 /* footer styles */
 footer {
+  height: 424px;
   text-align: center;
-  margin: 100px 0;
+  margin: 100px 0 0 0;
+  background-color: rgb(255, 249, 238);
 }
 
 .footer-logo-website-name {
